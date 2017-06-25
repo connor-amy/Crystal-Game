@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js" ></script>
+	<title>Crystal Collector</title>
+</head>
+<body>
+	
+	<header>
+		<h1>Crystal Collector!</h1>
+	</header>
+
+	<br>
+ 		
+	<div id="instructionContainer">
+		<p>
+		  <h2>Instructions:</h2>
+		  <ul>
+			<li>You will be given a random number at the start of the game (the Target Score).</li>
+			<br>
+			<li>Each of the four crystals has a random value attatched to it. Clicking on a crystal will add that crystal's value to your Score.</li>
+			<br>
+			<li>You win the game if you make your Score equal Target Score. If you go over Target Score, you lose the game.</li>
+			<br>
+			<li>Every time you win or lose the game, Target Score is randomized and the values of each crystal are also randomized.</li>
+		  </ul>	
+		</p>
+
+	</div>
+
+
+
+   <div id="rightContainer">
+   	<h2>Statistics:</h2>
+	<div id="targetContainer">
+		<p id="targetScore"></p>
+	</div>
+
+ 
+	<div id="statContainer">
+		<p id="score">Score: 0</p>
+		<p id="wins">Wins: 0</p>
+		<p id="losses">Losses: 0</p>
+		<p id="winOrLose"></p>
+	</div>
+
+	<br>
+
+  </div>	
+	<div id="buttonContainer">
+		<!--<button id="crystalOne">Crystal 1</button>-->
+		<img src="assets/images/crystalOne.png" id="crystalOne" alt="Crystal1">
+		<!--<button id="crystalTwo">Crystal 2</button>-->
+		<img src="assets/images/crystalTwo.png" id="crystalTwo" alt="Crystal2">
+		<!--<button id="crystalThree">Crystal 3</button>-->
+		<img src="assets/images/crystalThree.png" id="crystalThree" alt="Crystal3">
+		<!--<button id="crystalFour">Crystal 4</button>-->
+		<img src="assets/images/crystalFour.png" id="crystalFour" alt="Crystal4">
+	</div>
+  <!--</div>-->
+
+</body>
+</html>
