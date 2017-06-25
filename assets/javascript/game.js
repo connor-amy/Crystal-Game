@@ -1,10 +1,9 @@
-//Only executes code after the document loaded
 $(document).ready(function(){
 
 	//Current user score
 	var score = 0;
 	//Current target score
-    var targetScore = Math.floor(Math.random() * 102) + 19;
+   	var targetScore = Math.floor(Math.random() * 102) + 19;
 	//Current wins
 	var wins = 0;
 	//Current losses
